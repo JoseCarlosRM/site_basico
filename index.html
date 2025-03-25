@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Natureza</title>
+</head>
+<body>
+    <header>
+        <h1>Logo da Empresa</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quemsomos">Quem Somos</a></li>
+                <li><a href="#faleconosco">Fale Conosco</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <div class="slides">
+            <img src="nature1.jpg" alt="Natureza 1">
+            <img src="nature2.jpg" alt="Natureza 2">
+            <img src="nature3.jpg" alt="Natureza 3">
+            <img src="nature4.jpg" alt="Natureza 4">
+            <img src="nature5.jpg" alt="Natureza 5">
+        </div>
+    </section>
+
+    <section id="quemsomos">
+        <h2>Quem Somos</h2>
+        <p>Informações sobre a empresa...</p>
+    </section>
+
+    <section id="faleconosco">
+        <h2>Fale Conosco</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="tel" name="phone" placeholder="Telefone" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
